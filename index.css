@@ -1,0 +1,62 @@
+*{margin: 0;padding: 0;}
+/*设置body有具体的宽度，避免百分比，防止窗口缩小，元素错位*/
+body{width:1900px;margin: 0 auto;font-family: arial;}   
+div{display: block;}
+a{text-decoration-line: none;cursor: pointer;font-family: arial;font-weight: bold;display: inline-block;}
+
+/*top*/
+/*使用line-height="height" 加 text-align:center;可以使文本在父级中垂直且水平居中*/
+.top-bar{height: 50px;background-color: #f0f0f0;line-height: 50px;}
+
+.top-bar1{margin:0 200px;}
+.top-wel{float: left;}
+.a-fl{margin: 0 20px;float: right;}
+
+/*header*/
+.header{height: 100px;width: 100%;background-color: #fff;}
+
+.header-in{height: 100px;margin: 0 200px;}
+.header-logo{height: 100px;width: 100px;margin: 0 auto; float: left;}
+.header-logo1{margin: 0 30px;float: left;}
+/*.mingyan{width: 300px;height: 100px;float: left;border: 1px solid;}*/
+.header-search{margin: 0 auto;width: 500px;height: 100px;float: right;line-height: 100px;}
+
+/*background-color: #1ec6d3;*/
+
+.header-search input{width: 380px;height: 30px;border-radius: 10px;margin: 0 5px;}
+
+/*nav*/
+.nav{height: 50px;margin: 0 200px;clear: both;background: #000 linear-gradient(to left, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #1ec6d3);}
+
+.nav>ul>li{list-style: none;margin: 0 110px;float: left;}
+
+.nav ul li a{color: #f0f0f0;font-size: 20px; line-height: 50px;}
+
+/*bodyer*/
+.mg{margin: 5px 3px;}
+.bodyer{margin: 10px 200px;background-color:#1ec6d3; }
+
+
+.bodyer-left{width:200px;height: 400px;float: left;border:solid 1px #EEE;background: #000 linear-gradient(to top, #1ec6d3, #58c8fa, #1ec6d3); }
+.bodyer-left-in-div{width: 180px;height: 50px;margin: 12px 8px;border:solid 1px #EEE;line-height: 50px;text-align:center;}
+.bodyer-left-in-div a{font-size: 18px;color: #00000;}
+
+.bodyer-middle{width: 1015px;height: 1200px;border:solid 1px #EEE;float: left;border-top: none;background-color: #faf7ef;}
+.article-boder{width: 973px;height: 200px;background-color: #ffffff;margin: 30px 20px;border-radius: 4px;box-shadow: 0px 15px 20px -20px #5E5E5E;}/* box-shadow: 水平阴影位置  垂直阴影位置  模糊距离  阴影颜色; */
+.article-boder-top{height: 155px;}
+.article-boder-bottom{height: 45px;border-radius: 4px;background: #000 linear-gradient(to bottom, #03df64, #1ec6d3);}
+.article-boder-bottom img{width: 170px;height: 45px;line-height: 50px;float: right;}
+
+.bodyer-right{width: 260px;height: 600px;border:solid 1px #EEE;float: right;}
+form{width: 230px;height: 100px;border:solid 1px #EEE;margin: 5px 14px;text-align: center;}
+.form-input input{width: 200px;height: 20px;margin: 5px 6px;}
+
+/*footer*/
+.foot{height: 50px;margin: 5px 200px;clear: both;font:bold 20px arial;background: #000 linear-gradient(to left, #1ec6d3, #58c8fa, #007aff, #34aadc, #58c8fa, #1ec6d3);}
+
+/*backup original code
+<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51170202000264" style="display:inline-block;text-decoration:none;height:50px;line-height:50px;float: right;">
+			<img src=".\img\index\backupicon.png" style="line-height:50px;"/>
+			<span style="float:right;height:50px;line-height:50px;margin: 0px 0px 0px 5px; color:#939393;">川公网安备 51170202000264号</span>
+</a>
+*/
